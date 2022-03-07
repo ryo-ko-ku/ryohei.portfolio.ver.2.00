@@ -64,6 +64,8 @@
             <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
         </div>
 
+        <h2 class="product display-5 text-center fw-normal">-product-</h2>
+
         <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
             <a href="https://ryo-ko-ku.github.io/KuniiiHP/">
 
@@ -178,14 +180,15 @@
             <a href="https://ryo-ko-ku.github.io/slide.jpg/">
                 <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                     <div class="my-3 p-3">
-                        <h2 class="display-5">スライド画像</h2>
+                        <h2 class="display-5">スライド画像ver1.00</h2>
                         <p class="lead">
-                            
+                            webでよく見るスライド画像をJqueryで実装。
+                            変数indexNumberを定義し、その値をeqメソッドの中にセットし、取得した要素にactiveクラスを付与することで制作できた。
 
                         </p>
                     </div>
                     <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        <img src="#" alt="thumbnail slide" class="img-thumbnail" />
+                        <img src="slide.png" alt="thumbnail slide" class="img-thumbnail" />
                     </div>
                 </div>
             </a>
@@ -194,11 +197,13 @@
                     <div class="my-3 py-3">
                         <h2 class="display-5">スライド画像ver2.00</h2>
                         <p class="lead">
-
+                            if文でインデックス番号==0(一番前)の時はprev-btnをhide()して。
+                            インデックス番号==($(".slide").length-1)、(一番うしろ)の時はnext-btnをhide()した。
+                            またこの一連の動きを関数として定義してver1.00の各function()にて呼び出した。
                         </p>
                     </div>
                     <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        <img src="#" alt="thumbnail slide" class="img-thumbnail" />
+                        <img src="slide.ver2.00.png" alt="thumbnail slide" class="img-thumbnail" />
                     </div>
                 </div>
             </a>
@@ -211,11 +216,11 @@
                     <div class="my-3 p-3">
                         <h2 class="display-5">Hello Vue.js</h2>
                         <p class="lead">
-                            
+                            Vue.jsをCDNを利用し接続した。javascript上の要素がHTMLに干渉するのでこれだけでドキドキした。現在勉強中であり今後vue.js中心にシフトしていく予定。
                         </p>
                     </div>
                     <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        <img src="#" alt="thumbnail slide" class="img-thumbnail" />
+                        <img src="hello.vue.js.png" alt="thumbnail slide" class="img-thumbnail" />
                     </div>
                 </div>
             </a>
@@ -224,11 +229,13 @@
                     <div class="my-3 py-3">
                         <h2 class="display-5">セレクトフォーム</h2>
                         <p class="lead">
-
+                            submitイベント。valメソッド(inputの値をゲットorセット)の多用。
+                            if文で("")空文字の時エラーメッセージの表示。
+                            return false;してある。PHPも早く習得したい。
                         </p>
                     </div>
                     <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
-                        <img src="#" alt="thumbnail slide" class="img-thumbnail" />
+                        <img src="select-form.png" alt="thumbnail slide" class="img-thumbnail" />
                     </div>
                 </div>
             </a>
