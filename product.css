@@ -68,6 +68,36 @@ color:black;
     padding:10px 5px;
 }
 
+.profiel {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.AGE {
+    line-height: 45px;
+    margin-top:30px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+.profiel-heading {
+        font-size: 60px;
+        line-height: 45px;
+        margin-bottom:20px;
+        padding:20px 0;
+
+    }
+
+.profiel-subheading {
+    font-size: 1.25rem;
+    padding: 20px 0;
+}
+
+.profiel .profiel-img {
+        width: 15rem;
+    }
+.product{
+        margin:25px 0;
+    }
+
 
 /*
  * Extra utilities
