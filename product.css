@@ -95,7 +95,7 @@ color:black;
         width: 15rem;
     }
 .product{
-        margin:25px 0;
+        margin:40px 0;
     }
 
 .card-img-top{
@@ -109,7 +109,21 @@ color:black;
 .row {
     margin-bottom: 20px;
 }
+.border-primary{
+    border:2px solid;
+    border-color:blue;
+    border-radius:8px;
 
+}
+
+.History-heading{
+    margin:20px 0;
+}
+. history-list {
+    justify-content: space-between;
+    display:block;
+
+}
 /*
  * Extra utilities
  */
