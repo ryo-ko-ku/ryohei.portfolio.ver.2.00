@@ -119,11 +119,24 @@ color:black;
 .History-heading{
     margin:20px 0;
 }
-. history-list {
-    justify-content: space-between;
-    display:block;
+.history-list {
+    
+    align-items:center;
+}
+.none{
+    list-style-type:none;
 
 }
+.row1{
+    margin-bottom:20px;
+}
+
+
+
+
+
+
+
 /*
  * Extra utilities
  */
