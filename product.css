@@ -130,13 +130,14 @@ color:black;
 .row1{
     margin-bottom:20px;
 }
+.special-img1{
+    width:70%;
+    height:auto;
 
-
-
-
-
-
-
+}
+.special{
+    margin:100px 0;
+}
 /*
  * Extra utilities
  */
