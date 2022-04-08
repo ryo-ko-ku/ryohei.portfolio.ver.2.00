@@ -130,6 +130,8 @@ color:black;
 .row1{
     margin-bottom:20px;
 }
+
+
 .special-img1{
     width:70%;
     height:auto;
@@ -138,6 +140,45 @@ color:black;
 .special{
     margin:100px 0;
 }
+
+
+.special-heading{
+    margin:100px 0;
+}
+.top-text {
+    text-align: center;
+}
+.left-text{
+    text-align:left;
+    z-index:2;
+    padding-top:200px;
+}
+.right-text {
+    text-align: right;
+    z-index: 2;
+    padding-top: 200px;
+}
+.special-img {
+   
+}
+.img-special{
+    z-index:1;
+   width:90%;
+   height:auto;
+   margin-left:30px;
+
+   
+}
+.favorite-img{
+    width:70%;
+    height:auto;
+
+}
+.padding-top{
+    padding-top:50px;
+}
+
+
 /*
  * Extra utilities
  */
