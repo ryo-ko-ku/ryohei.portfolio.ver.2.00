@@ -22,5 +22,9 @@ $(function () {
 
     });
 
+    $("#history-container").scroll(function () {
+        $(".history-list").hide().fadeIn("slow");
+    });
+
 
 });
