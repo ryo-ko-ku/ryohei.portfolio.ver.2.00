@@ -184,6 +184,19 @@ color:black;
 #Favorite{
     margin-top:200px;
 }
+/*Å‰‚Í”ñ•\¦*/
+.element{
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(30px);
+    transition:opacity 1s,visibility 1s,transform 1s;
+}
+/*fadein‚É“ü‚éƒNƒ‰ƒX*/
+.is-fadein{
+    opacity:1;
+    visibility:visible;
+    transform:translateX(0);
+}
 
 
 /*
